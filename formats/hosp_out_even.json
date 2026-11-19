@@ -1,0 +1,115 @@
+{
+  "title": "令和8年患者調査 病院外来（偶数）票",
+  "code": "3",
+  "total_len": 17,
+  "items": [
+    {
+      "start_col": 1,
+      "length": 1,
+      "name": "調査票種別",
+      "pad": "left_space",
+      "val_type": "text",
+      "guide": "「3」―病院外来（偶数）票",
+      "mapping_type": "const",
+      "csv_col": "",
+      "const_val": "3",
+      "transform": "none"
+    },
+    {
+      "start_col": 2,
+      "length": 3,
+      "name": "施設番号",
+      "pad": "right_zero",
+      "val_type": "number",
+      "guide": "「001」～       ※    数字3桁のみ入力してください。",
+      "mapping_type": "csv",
+      "csv_col": "",
+      "const_val": "",
+      "transform": "none"
+    },
+    {
+      "start_col": 5,
+      "length": 4,
+      "name": "患者番号",
+      "pad": "right_zero",
+      "val_type": "number",
+      "guide": "「0001」～",
+      "mapping_type": "csv",
+      "csv_col": "",
+      "const_val": "",
+      "transform": "none"
+    },
+    {
+      "start_col": 9,
+      "length": 1,
+      "name": "外来",
+      "pad": "left_space",
+      "val_type": "text",
+      "guide": "「2」―外来",
+      "mapping_type": "csv",
+      "csv_col": "",
+      "const_val": "",
+      "transform": "none"
+    },
+    {
+      "start_col": 10,
+      "length": 1,
+      "name": "性別",
+      "pad": "left_space",
+      "val_type": "text",
+      "guide": "「1」―男     「2」―女",
+      "mapping_type": "csv",
+      "csv_col": "",
+      "const_val": "",
+      "transform": "none"
+    },
+    {
+      "start_col": 11,
+      "length": 1,
+      "name": "出生年月日（元号）",
+      "pad": "left_space",
+      "val_type": "text",
+      "guide": "「1」―令和     「2」―平成   「3」―昭和    「4」―大正   「5」―明治",
+      "mapping_type": "csv",
+      "csv_col": "",
+      "const_val": "",
+      "transform": "none"
+    },
+    {
+      "start_col": 12,
+      "length": 2,
+      "name": "出生年月日（年）",
+      "pad": "right_zero",
+      "val_type": "number",
+      "guide": "「01」～「64」",
+      "mapping_type": "csv",
+      "csv_col": "",
+      "const_val": "",
+      "transform": "none"
+    },
+    {
+      "start_col": 14,
+      "length": 2,
+      "name": "出生年月日（月）",
+      "pad": "right_zero",
+      "val_type": "number",
+      "guide": "「01」～「12」",
+      "mapping_type": "csv",
+      "csv_col": "",
+      "const_val": "",
+      "transform": "none"
+    },
+    {
+      "start_col": 16,
+      "length": 2,
+      "name": "出生年月日（日）",
+      "pad": "right_zero",
+      "val_type": "number",
+      "guide": "「01」～「31」",
+      "mapping_type": "csv",
+      "csv_col": "",
+      "const_val": "",
+      "transform": "none"
+    }
+  ]
+}

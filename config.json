@@ -1,0 +1,16 @@
+{
+  "formats_directory": "formats",
+  "recent_formats_limit": 10,
+  "last_used_format": "formats/hosp_discharge.json",
+  "recent_formats": [
+    "formats/hosp_discharge.json",
+    "formats/hosp_in_odd.json",
+    "formats/hosp_in_even.json",
+    "formats/hosp_out_odd.json",
+    "formats/hosp_out_even.json",
+    "formats/clinic_in.json",
+    "formats/clinic_out.json",
+    "formats/clinic_discharge.json",
+    "formats/dental.json"
+  ]
+}

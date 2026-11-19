@@ -1,0 +1,33 @@
+*.csv
+*.txt
+storage/data/*
+
+# for emacs
+*~
+\#*\#
+.\#*
+.dir-locals.el
+
+# for vscode
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python cache, temp file
+__pycache__/
+*.py[cod]
+*$py.class
+
+# venv
+.venv/
+venv/
+ENV/
+
+# Flet build / packaging output
+build/
+dist/
+*.spec
+
+# environment variable
+.env
