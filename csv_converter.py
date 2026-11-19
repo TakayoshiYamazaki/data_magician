@@ -10,6 +10,7 @@ import converter_core
 def main(page: ft.Page):
     # --- ページ基本設定 ---
     page.title = "DataMagician - CSV→固定長テキスト変換ツール"
+    page.window.icon = "dmagician.ico"    # ウィンドウ左上のタイトルバーアイコンも変更
     page.window.width = 1320
     page.window.height = 880
     page.window.min_width = 1000
